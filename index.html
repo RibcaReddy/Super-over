@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Over</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./superover-favicon.png">
+</head>
+<body>
+    <div class="display">
+        <div class="match-card">
+            <h1 class="title">Super Over Match</h1>
+            <div class="teams">
+                <img id="rcb-img" src="https://wallpapercave.com/wp/wp7104719.png" alt="RCB" class="rcb">
+                <div id="score">
+                    <h1 id="rcb-score">0</h1>
+                    <h1>&nbsp;-&nbsp;</h1>
+                    <h1 id="csk-score">0</h1>
+                </div>
+                <img id="csk-img" src="https://logodix.com/logo/1723734.png" alt="CSK">
+            </div>
+            <div class="runs">
+                <div class="rcb-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+                <div class="csk-runs">
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                    <h2>-</h2>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="play" value="strike" onclick="playSuperOver();">Strike</button>
+                <button id="reset" onclick="window.location.reload();">Refresh</button>
+            </div>
+            <h1 id="res">Waiting for Result</h1>
+        </div>
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
